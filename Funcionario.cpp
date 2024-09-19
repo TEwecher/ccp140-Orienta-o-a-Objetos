@@ -15,5 +15,7 @@ class Funcionario: public Pessoa{
             cout << "CPF: " << this->getCPF() << endl;
             cout << "Data de nascimento: " << this->getNascimento() << endl;
             cout << "Endereco: " << this->getEndereco() << endl;
+            cout << "Salario: " << this->salario << endl;
+            cout << "Cadastro: " << this->cadastro << endl;
         }
 };
